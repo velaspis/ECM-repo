@@ -14,4 +14,4 @@ To run the scripts and solutions in the repository, you will need a compatible v
 
 Alternatively, you can use a cloud-based IDE such as Google Colab or Jupyter Notebooks for running the code. This can help save you time and effort when running the scripts, as it does not require any setup on your end. 
 
-If you need any assistance with using the repository, please feel free to contact us. We are always happy to help!
+If you need any assistance with using the repository, please feel free to contact us. We are always happy to help
