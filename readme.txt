@@ -8,7 +8,7 @@ Whether you are new to ECM or are a seasoned professional, this repository has s
 
 We welcome any feedback or suggestions that you may have, so please do not hesitate to contact us. Thank you for your interest in our repository! 
 
-## How to Run It
+## How to Run It?
 
 To run the scripts and solutions in the repository, you will need a compatible version of Python installed on your computer. Once you have this setup, you can download the repository and start running the scripts. 
 
