@@ -32,7 +32,7 @@ function App() {
         </div>
         <div className="foot">IMAGINATION CREATOR HEAD</div>
       </div>
-      <div className="2nd-page">
+      <div className="2ndpage">
         <p>
           IMAGINATION CREATOR HEAD Alles ist MÖGLICH !<br></br>
           Man muss nur wissen wie !
