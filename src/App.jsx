@@ -1,26 +1,27 @@
+// Importing necessary modules and files
 import { useState, useEffect } from "react";
-import Profile from "./profile.jpg";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import Profile from "./profile.jpg"; // image file
+import AOS from "aos"; // animation library
+import "aos/dist/aos.css"; // CSS file for AOS
 import {
-  Animator,
-  ScrollContainer,
-  ScrollPage,
-  batch,
-  Fade,
-  FadeIn,
-  FadeOut,
-  Move,
-  MoveIn,
-  MoveOut,
-  Sticky,
-  StickyIn,
-  StickyOut,
-  Zoom,
-  ZoomIn,
-  ZoomOut,
-} from "react-scroll-motion";
-import "./App.scss";
+Animator,
+ScrollContainer,
+ScrollPage,
+batch,
+Fade,
+FadeIn,
+FadeOut,
+Move,
+MoveIn,
+MoveOut,
+Sticky,
+StickyIn,
+StickyOut,
+Zoom,
+ZoomIn,
+ZoomOut,
+} from "react-scroll-motion"; // library for scroll-based animations
+import "./App.scss"; // SCSS file for styling the web page
 const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
 const FadeUp = batch(Fade(), Move(), Sticky());
 const data = {
