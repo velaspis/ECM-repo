@@ -22,6 +22,7 @@ ZoomIn,
 ZoomOut,
 } from "react-scroll-motion"; // library for scroll-based animations
 import "./App.scss"; // SCSS file for styling the web page
+// Creating animation constants
 const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
 const FadeUp = batch(Fade(), Move(), Sticky());
 const data = {
@@ -46,14 +47,15 @@ Deine Tatenkraft wird dich leiten und ich darf dich begleiten.<br/>
   Vielen Dank dafür.  `,
 };
 
+// Main component function
 function App() {
-  const [scrollPosition, setScrollPosition] = useState(0);
-  function handleScroll() {
-    setScrollPosition(
-      (100 * window.scrollY) / (document.body.scrollHeight - window.innerHeight)
-    );
+  const [scrollPosition, setScrollPosition] = useState(0); // State variable to track scroll position
+  function handleScroll() { // Function to handle scroll event and update the scroll position state variable
+  setScrollPosition(
+  (100 * window.scrollY) / (document.body.scrollHeight - window.innerHeight)
+  );
   }
-  AOS.init();
+  AOS.init(); // Initializing the AOS library
 
   // You can also pass an optional settings object
   // below listed default settings
