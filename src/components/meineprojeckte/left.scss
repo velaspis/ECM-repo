@@ -1,0 +1,16 @@
+.left {
+  @mixin fnt-clr {
+    color: rgb(42, 74, 66);
+  }
+  @include reset-list;
+  font-family: "DM Serif Display", serif;
+  h1 {
+    font-size: calc(var(--char) * 7);
+    @include fnt-clr;
+    margin-top: 5vh;
+  }
+  h2 {
+    font-size: calc(var(--char) * 8);
+    @include fnt-clr;
+  }
+}

@@ -40,21 +40,14 @@ ul {
   padding: 0;
   margin: 0;
 }
-
-// temporary
-body {
-  height: 700vh;
-  font-family: "aileron";
-  background-color: rgb(215, 215, 209);
+.doublepage {
+  width: 100vw;
+  min-height: 150vh;
+  height: fit-content;
+  display: flex;
+  background-color: rgb(244, 245, 250);
+  color: rgb(40, 75, 67);
+  border-bottom: 2px grey dotted;
+  @import "./left.scss";
+  @import "./right.scss";
 }
-@import "./components/toppage.scss";
-
-@import "./components/text.scss";
-
-@import "./components/midpage.scss";
-
-@import "./components/doublepage/doublepage.scss";
-
-@import "./components/kontakt.scss";
-
-@import "./components/meineprojeckte/meineprojekte.scss";

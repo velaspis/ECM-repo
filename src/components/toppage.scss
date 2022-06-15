@@ -1,0 +1,12 @@
+.top-page {
+  overflow: hidden;
+  font-family: "aileron";
+  display: flex;
+  margin: auto;
+  height: 100vh;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: calc(var(--char) * 8);
+}

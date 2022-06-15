@@ -8,8 +8,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "aos": "^2.3.4",
+    "framer-motion": "^6.3.11",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+    "react-intersection-observer": "^9.3.0",
+    "react-scroll-motion": "^0.3.0",
     "sass": "^1.52.2"
   },
   "devDependencies": {
