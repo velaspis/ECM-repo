@@ -150,7 +150,10 @@ function App() {
           <div className="bottom-right">
             <h1 data-aos="fade">“Imagination Creator Head"</h1>
 
-            <p dangerouslySetInnerHTML={{ __html: data.leadertext2 }} />
+            <p
+              data-aos="fade-left"
+              dangerouslySetInnerHTML={{ __html: data.leadertext2 }}
+            />
           </div>
         </div>
       </div>
