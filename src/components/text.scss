@@ -27,17 +27,17 @@
   &::before,
   &::after {
     content: "";
-    background-color: #1b4d41;
+    background-color: #1b4d4154;
     opacity: 10%;
     width: calc(var(--char) * 60);
     aspect-ratio: 1;
     border-radius: 50%;
     position: absolute;
     transform: translateY(-50%);
-    box-shadow: 0 calc(var(--char) * 60) 0px 0px #1b4d41;
+    box-shadow: 0 calc(var(--char) * 60) 0px 0px#1b4d4154;
   }
   &::after {
     transform: translateX(-50%);
-    box-shadow: calc(var(--char) * 60) 0vh 0px 0px #1b4d41;
+    box-shadow: calc(var(--char) * 60) 0vh 0px 0px #1b4d4154;
   }
 }

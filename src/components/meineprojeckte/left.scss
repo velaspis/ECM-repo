@@ -7,10 +7,12 @@
   h1 {
     font-size: calc(var(--char) * 7);
     @include fnt-clr;
-    margin-top: 5vh;
+    padding-top: 5vh;
+    box-sizing: border-box;
   }
   h2 {
     font-size: calc(var(--char) * 8);
     @include fnt-clr;
+    padding-top: 10vh;
   }
 }
