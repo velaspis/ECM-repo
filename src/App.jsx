@@ -25,7 +25,8 @@ const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
 const FadeUp = batch(Fade(), Move(), Sticky());
 const data = {
   leadertext: `Beraterin für Initiatoren & Förderer um nachhaltige und<br/>       
-  generationsübergreifende Projekte zu realisieren.
+  generations-
+  <br>übergreifende Projekte zu realisieren.
   <br />
   Die Entwicklung deiner Innovations- und Führungskraft steht im
   Mittelpunkt.<br/>
