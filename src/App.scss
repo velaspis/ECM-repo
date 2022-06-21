@@ -41,12 +41,14 @@ ul {
   margin: 0;
 }
 
-// temporary
-body {
-  height: 700vh;
+.container {
+  width: 100vw;
   font-family: "aileron";
-  background-color: rgb(215, 215, 209);
+  height: 700vh;
+  overflow: hidden;
 }
+// temporary
+
 @import "./components/toppage.scss";
 
 @import "./components/text.scss";
