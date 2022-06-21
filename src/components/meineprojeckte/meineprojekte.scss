@@ -13,7 +13,13 @@
   background-color: rgb(244, 245, 250);
   flex-direction: row;
   box-sizing: border-box;
-  height: 100vh;
+  @media (min-width: 720px) {
+    height: 150vh;
+  }
+  @media (min-width: 1920px) {
+    height: 120vh;
+  }
+
   padding: 2vh 5vw 2vh 5vw;
   @import "./left.scss";
   @import "./middle.scss";

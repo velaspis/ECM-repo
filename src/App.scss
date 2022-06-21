@@ -25,6 +25,13 @@
 body {
   margin: 0;
   font-size: calc(var(--char) * 1);
+  height: 900vh;
+  @media (min-width: 720px) {
+    height: 1200vh;
+  }
+  @media (min-width: 1920px) {
+    height: 900vh;
+  }
 }
 * {
   box-sizing: border-box;
@@ -44,7 +51,9 @@ ul {
 .container {
   width: 100vw;
   font-family: "aileron";
-  height: 700vh;
+  @media (min-width: 720px) {
+    height: fit-content;
+  }
   overflow: hidden;
 }
 // temporary

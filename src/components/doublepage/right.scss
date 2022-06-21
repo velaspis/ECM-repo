@@ -4,7 +4,7 @@
   @media (min-width: 300px) {
     --char: 0.4rem;
   }
-  @media (min-width: 1920px) {
+  @media (min-width: 720px) {
     --char: 1rem;
   }
   border-left: 2px solid black;
@@ -35,7 +35,7 @@
       margin-bottom: 20vh;
       --char: 0.4rem;
     }
-    @media (min-width: 1920px) {
+    @media (min-width: 720px) {
       --char: 1rem;
       margin-bottom: 45vh;
     }
@@ -51,7 +51,7 @@
   li {
     @media (min-width: 300px) {
     }
-    @media (min-width: 1920px) {
+    @media (min-width: 720px) {
     }
     padding-left: calc(var(--char) * 2);
     margin-left: calc(var(--char) * 3);
@@ -65,7 +65,7 @@
     @media (min-width: 300px) {
       padding-top: 10vh;
     }
-    @media (min-width: 1920px) {
+    @media (min-width: 720px) {
       --char: 1rem;
       padding-top: 20vh;
     }

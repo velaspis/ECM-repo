@@ -1,6 +1,12 @@
 .kontakt {
   width: 100vw;
   height: 100vh;
+  @media (min-width: 720px) {
+    height: 150vh;
+  }
+  @media (min-width: 1920px) {
+    height: 100vh;
+  }
   padding-top: 10vh;
   font-family: "DM Serif Display", serif;
   background-color: rgb(244, 245, 250);
@@ -23,7 +29,7 @@
       padding-top: 0vh;
       font-size: 3vh;
     }
-    @media (min-width: 1920px) {
+    @media (min-width: 720px) {
       --char: 1rem;
       padding-top: 20vh;
     }

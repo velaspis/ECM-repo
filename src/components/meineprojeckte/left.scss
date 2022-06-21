@@ -3,6 +3,9 @@
     color: rgb(42, 74, 66);
   }
   @include reset-list;
+  @media (min-width: 720px) {
+    --char: 0.8rem;
+  }
   font-family: "DM Serif Display", serif;
   h1 {
     font-size: calc(var(--char) * 7);

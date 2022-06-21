@@ -4,9 +4,9 @@
     transform: translatex(-32vw);
     margin-top: 10vh;
   }
-  @media (min-width: 1920px) {
+  @media (min-width: 720px) {
     padding-left: 0;
-    transform: translatex(-3vw);
+    transform: translatex(-20vw);
     margin-top: 10vh;
   }
 
@@ -24,7 +24,7 @@
       transform: translate(1vw, -2vh);
       --char: 0.3rem;
     }
-    @media (min-width: 1920px) {
+    @media (min-width: 720px) {
       aspect-ratio: 1;
       object-fit: cover;
       border-radius: 50%;
@@ -45,6 +45,19 @@
       left: 50;
       top: 50;
       transform: translate(-3vw, 1vh);
+    }
+    @media (min-width: 720px) {
+      z-index: 1;
+
+      border-radius: 50%;
+      aspect-ratio: 1;
+      background-color: rgb(97, 201, 168);
+      display: block;
+      opacity: 50%;
+      position: absolute;
+      left: 50;
+      top: 50;
+      transform: translate(-1vw, 2vh);
     }
     @media (min-width: 1920px) {
       z-index: 1;
