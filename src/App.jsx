@@ -131,16 +131,25 @@ function App() {
           />
           <ul>
             <li data-aos="fade-left">
-              Mentale Begleitung - Erkenntnisse der Bewusstwerdung
+              Mentale Begleitung - Erkenntnisse der Bewusst-
+              <br />
+              werdung
             </li>
 
             <li data-aos="fade-left">
-              Systematische Konzeptentwicklung und Begleitung
+              Systema- <br />
+              tische Konzept-
               <br />
-              in der Verwirklichungsphase.
+              entwicklung und Begleitung
+              <br />
+              in der Verwirklichy-
+              <br />
+              ungsphase.
             </li>
             <li data-aos="fade-left">
-              Repräsentation im Netzwerk und Erschließung neuer Human Resources
+              Repräsenta-
+              <br />
+              tion im Netzwerk und Erschließung neuer Human Resources
             </li>
             <li data-aos="fade-left">
               Beratung bei Realisierung und Anpassung der Prozesse bis zu 6
@@ -150,7 +159,10 @@ function App() {
           <div className="bottom-right">
             <h1 data-aos="fade">“Imagination Creator Head"</h1>
 
-            <p dangerouslySetInnerHTML={{ __html: data.leadertext2 }} />
+            <p
+              data-aos="fade-left"
+              dangerouslySetInnerHTML={{ __html: data.leadertext2 }}
+            />
           </div>
         </div>
       </div>
