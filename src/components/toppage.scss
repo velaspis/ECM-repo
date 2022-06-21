@@ -3,12 +3,14 @@
   font-family: "aileron";
   display: flex;
   margin: auto;
+  width: 100vw;
   height: 100vh;
   position: relative;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   font-size: calc(var(--char) * 8);
+
   .foot {
     font-size: calc(var(--char) * 2);
     text-align: center;
