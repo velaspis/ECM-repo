@@ -3,8 +3,17 @@
     color: rgb(42, 74, 66);
   }
   @include reset-list;
+  @media (min-width: 300px) {
+    --char: 0.3rem;
+    h2 {
+      margin-top: 15vh;
+    }
+  }
   @media (min-width: 720px) {
     --char: 0.8rem;
+  }
+  @media (min-width: 1920px) {
+    --char: 1.2rem;
   }
   font-family: "DM Serif Display", serif;
   h1 {
@@ -16,6 +25,6 @@
   h2 {
     font-size: calc(var(--char) * 8);
     @include fnt-clr;
-    padding-top: 10vh;
+    padding-top: 15vh;
   }
 }

@@ -64,7 +64,7 @@
         --char: 1rem;
         font-size: calc(var(--char) * 10.5);
         line-height: calc(var(--char) * 9);
-        margin-top: 40vh;
+        margin-top: 50vh;
         padding-bottom: 0vh;
       }
 
@@ -72,7 +72,7 @@
     }
   }
   h1 {
-    height: 100vh;
+    height: 50vh;
   }
   .bottom {
     display: flex;
@@ -89,7 +89,7 @@
       }
       @media (min-width: 1920px) {
         --char: 1rem;
-        padding-top: 0vh;
+        padding-top: 30vh;
         font-size: calc(var(--char) * 12);
       }
       p:nth-of-type(2) {

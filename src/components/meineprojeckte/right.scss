@@ -1,14 +1,17 @@
 .right1 {
   @media (min-width: 300px) {
+    --char: 0.3rem;
     transform: translateX(calc(var(--char) * -11));
-    height: 100vh;
+    max-height: 100vh;
     margin-top: calc(var(--char) * 10);
   }
   @media (min-width: 720px) {
+    --char: 0.7rem;
     transform: translateX(-0vw);
     font-size: calc(var(--char) * 1);
   }
   @media (min-width: 1920px) {
+    --char: 1rem;
     transform: translateX(-0vw);
     font-size: calc(var(--char) * 2);
   }
@@ -39,7 +42,7 @@
       font-size: calc(var(--char) * 2);
       line-height: calc(var(--char) * 3);
       margin-left: calc(var(--char) * 3);
-      font-size: calc(var(--char) * 2.5);
+      font-size: calc(var(--char) * 4);
     }
   }
   ul {
@@ -64,9 +67,9 @@
       }
       @media (min-width: 1920px) {
         font-size: calc(var(--char) * 0.9);
-        line-height: calc(var(--char) * 3);
+        line-height: calc(var(--char) * 4);
         margin-left: calc(var(--char) * 3);
-        font-size: calc(var(--char) * 2.5);
+        font-size: calc(var(--char) * 4);
       }
       list-style: none;
 

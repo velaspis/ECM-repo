@@ -100,7 +100,7 @@ function App() {
 
       <div className="mid-page">
         <h2 data-aos="new-animation">
-          IMAGINATION CREATOR HEAD Alles ist MÖGLICH !<br></br>
+          Alles ist MÖGLICH !<br></br>
           Man muss nur wissen wie !
           <br />
           Fang an, GROSS zu denken und

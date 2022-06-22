@@ -8,8 +8,17 @@
   flex-direction: column;
   align-items: center;
   h2 {
+    @media (min-width: 300px) {
+      --char: 0.3rem;
+    }
+    @media (min-width: 720px) {
+      --char: 0.7rem;
+    }
+    @media (min-width: 1920px) {
+      --char: 1rem;
+    }
     font-family: "DM Serif Display", serif;
-    font-size: calc(var(--char) * 8);
+    font-size: calc(var(--char) * 10);
     padding: 0px 10% 0px 10%;
     font-weight: 700;
     color: rgb(205, 217, 214);
