@@ -11,7 +11,7 @@
   }
   font-family: "DM Serif Display", serif;
   position: relative;
-  padding-left: 5vw;
+  padding-left: 5%;
   width: 50%;
   min-height: 150vh;
   word-break: keep-all;
@@ -72,14 +72,14 @@
     }
   }
   h1 {
-    height: 50vh;
+    height: fit-content;
   }
   .bottom {
     display: flex;
     h1 {
       @media (min-width: 300px) {
         --char: 0.3rem;
-        padding-top: 45vh;
+        padding-top: calc(var(--char) * 12);
         font-size: calc(var(--char) * 12);
       }
       @media (min-width: 720px) {
@@ -89,7 +89,7 @@
       }
       @media (min-width: 1920px) {
         --char: 1rem;
-        padding-top: 30vh;
+        padding-top: 10vh;
         font-size: calc(var(--char) * 12);
       }
       p:nth-of-type(2) {

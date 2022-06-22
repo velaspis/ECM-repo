@@ -10,9 +10,9 @@
   align-items: center;
   font-size: calc(var(--char) * 8);
   .foot {
-    font-size: calc(var(--char) * 2);
+    font-size: calc(var(--char) * 3);
     text-align: center;
     background-color: rgb(215, 215, 209);
-    width: 100vw;
+    width: 100%;
   }
 }

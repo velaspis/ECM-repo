@@ -7,12 +7,12 @@
   }
   @media (min-width: 720px) {
     --char: 0.7rem;
-    transform: translateX(-0vw);
+    transform: translateX(-0%);
     font-size: calc(var(--char) * 1);
   }
   @media (min-width: 1920px) {
     --char: 1rem;
-    transform: translateX(-0vw);
+    transform: translateX(-0%);
     font-size: calc(var(--char) * 2);
   }
   margin-left: calc(var(--char) * 3);
@@ -48,7 +48,7 @@
   ul {
     list-style: inside 2px;
     word-break: break;
-    padding-left: 0vw;
+    padding-left: 0%;
     position: relative;
     max-height: fit-content;
 
@@ -86,7 +86,7 @@
         @media (min-width: 1920px) {
           transform: translateX(calc(var(--char) * -0.8));
         }
-        margin-right: 0.5vw;
+        margin-right: 0.5%;
         display: inline-block;
         content: "";
         background-color: rgb(48, 89, 79);
