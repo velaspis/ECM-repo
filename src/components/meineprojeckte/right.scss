@@ -11,7 +11,7 @@
     font-size: calc(var(--char) * 1);
   }
   @media (min-width: 1920px) {
-    --char: 1rem;
+    // --char: 1rem;
     transform: translateX(-0%);
     font-size: calc(var(--char) * 2);
   }
@@ -22,25 +22,22 @@
   font-family: sans-serif;
   padding: 0;
   border-left: 2px solid black;
-  position: absolute;
+
   right: 0;
   max-height: fit-content;
   h3 {
     @media (min-width: 300px) {
-      font-size: calc(var(--char) * 1);
       line-height: calc(var(--char) * 3);
       margin-left: calc(var(--char) * 3);
       font-size: calc(var(--char) * 2.5);
     }
     @media (min-width: 720px) {
-      font-size: calc(var(--char) * 1);
       line-height: calc(var(--char) * 1.5);
       margin-left: calc(var(--char) * 2);
-      font-size: calc(var(--char) * 1.5);
+      font-size: calc(var(--char) * 2.5);
     }
     @media (min-width: 1920px) {
-      font-size: calc(var(--char) * 2);
-      line-height: calc(var(--char) * 3);
+      line-height: calc(var(--char) * 3.5);
       margin-left: calc(var(--char) * 3);
       font-size: calc(var(--char) * 4);
     }
@@ -49,24 +46,21 @@
     list-style: inside 2px;
     word-break: break;
     padding-left: 0%;
-    position: relative;
+
     max-height: fit-content;
 
     li {
       @media (min-width: 300px) {
-        font-size: calc(var(--char) * 1);
         line-height: calc(var(--char) * 3);
         margin-left: calc(var(--char) * 3);
         font-size: calc(var(--char) * 2.5);
       }
       @media (min-width: 720px) {
-        font-size: calc(var(--char) * 1);
-        line-height: calc(var(--char) * 1.5);
+        line-height: calc(var(--char) * 2.5);
         margin-left: calc(var(--char) * 2);
-        font-size: calc(var(--char) * 1.5);
+        font-size: calc(var(--char) * 3);
       }
       @media (min-width: 1920px) {
-        font-size: calc(var(--char) * 0.9);
         line-height: calc(var(--char) * 4);
         margin-left: calc(var(--char) * 3);
         font-size: calc(var(--char) * 4);

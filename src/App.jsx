@@ -48,7 +48,8 @@ function App() {
   const [scrollPosition, setScrollPosition] = useState(0);
   function handleScroll() {
     setScrollPosition(
-      (100 * window.scrollY) / (document.body.scrollHeight - window.innerHeight)
+      (100 * window.scrollY) /
+        (document.body.scrollsHeight - window.innerHeight)
     );
   }
   AOS.init();
@@ -107,7 +108,7 @@ function App() {
           <br />
           gewöhn dich dran !
         </h2>
-        <h3>MONIKA SZPIECH</h3>
+        <h3 className="mid-top">MONIKA SZPIECH</h3>
       </div>
 
       <div className="doublepage">
@@ -204,7 +205,28 @@ function App() {
           </ul>
         </div>
       </div>
-
+      <div className="mid-page">
+        <h3 className="circletop">highlight</h3>
+        <h2>
+          Es geht um dein Projekt <br />&<br /> die beste VERSION deiner selbst
+        </h2>
+      </div>
+      <div className="doublepage1">
+        <div className="left2">
+          <section>
+            <h2 data-aos="fade-right">Führung & Organisation</h2>
+            <h2 data-aos="fade-right">mit Herz & Verstand</h2>
+          </section>
+        </div>
+        <div className="right2">
+          {" "}
+          <h1 data-aos="fade-in">Leader</h1>
+          <p
+            data-aos="fade-left"
+            dangerouslySetInnerHTML={{ __html: data.leadertext }}
+          />
+        </div>
+      </div>
       <div className="kontakt">
         <span className="h2">
           <h2>TEILE MIR MIT WAS DU MÖCHTEST</h2>

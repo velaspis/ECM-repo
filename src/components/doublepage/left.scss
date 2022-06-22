@@ -48,7 +48,7 @@
     }
     :nth-child(2) {
       @media (min-width: 300px) {
-        margin-top: 50vh;
+        margin-top: calc(var(--char) * 80);
         padding-bottom: 10vh;
         font-size: calc(var(--char) * 10.5);
         line-height: calc(var(--char) * 9);
@@ -99,7 +99,7 @@
       }
 
       line-height: calc(var(--char) * 9);
-      margin-top: calc(var(--char) * 5);
+      margin-top: calc(var(--char) * 30);
     }
   }
 }
