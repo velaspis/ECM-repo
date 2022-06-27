@@ -40,12 +40,10 @@ ul {
   padding: 0;
   margin: 0;
 }
-.double {
-  height: 200vh;
-}
+
 .doublepage1 {
   width: 100%;
-  min-height: 150vh;
+  max-height: 100vh;
   height: fit-content;
   display: flex;
   background-color: rgb(244, 245, 250);

@@ -1,3 +1,9 @@
+@mixin chld-3 {
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 50%;
+  // transform: translate(1%, -2vh);
+}
 .middle {
   @media (min-width: 300px) {
     padding-left: 0;
@@ -18,7 +24,6 @@
     transform: translatex(calc(var(--char) * -10));
     margin-top: 10vh;
   }
-
   @include reset-list;
   position: relative;
   display: flex;
@@ -28,70 +33,23 @@
 
   img {
     @media (min-width: 300px) {
-      aspect-ratio: 1;
-      object-fit: cover;
-      border-radius: 50%;
-      transform: translate(1%, -2vh);
       --char: 0.2rem;
     }
     @media (min-width: 720px) {
-      aspect-ratio: 1;
-      object-fit: cover;
-      border-radius: 50%;
-      transform: translate(1%, -2vh);
       --char: 0.5rem;
     }
     @media (min-width: 1920px) {
-      aspect-ratio: 1;
-      object-fit: cover;
-      border-radius: 50%;
-      transform: translate(1%, -2vh);
       --char: 0.8rem;
     }
     width: calc(var(--char) * 60);
-  }
-  &:before {
-    @media (min-width: 300px) {
-      z-index: 1;
-      border-radius: 50%;
-      aspect-ratio: 1;
-      background-color: rgb(97, 201, 168);
-      display: block;
-      opacity: 50%;
-      position: absolute;
-      left: 50;
-      top: 50;
-      transform: translate(-3%, 1vh);
-      --char: 0.2rem;
-    }
-    @media (min-width: 720px) {
-      z-index: 1;
+    @include chld-3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    aspect-ratio: 1;
+    border-radius: 50%;
 
-      border-radius: 50%;
-      aspect-ratio: 1;
-      background-color: rgb(97, 201, 168);
-      display: block;
-      opacity: 50%;
-      position: absolute;
-      left: 50;
-      top: 50;
-      transform: translate(-1%, 2vh);
-      --char: 0.5rem;
-    }
-    @media (min-width: 1920px) {
-      z-index: 1;
-      border-radius: 50%;
-      aspect-ratio: 1;
-      background-color: rgb(97, 201, 168);
-      display: block;
-      opacity: 50%;
-      position: absolute;
-      left: 50;
-      top: 50;
-      transform: translate(-1%, 2vh);
-      --char: 0.8rem;
-    }
-    width: calc(var(--char) * 60);
+    width: calc(var(--char) * 50);
     content: "";
   }
 }

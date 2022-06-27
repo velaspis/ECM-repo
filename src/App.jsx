@@ -68,9 +68,9 @@ function App() {
     throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
 
     // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
-    offset: 120, // offset (in px) from the original trigger point
+    offset: 300, // offset (in px) from the original trigger point
     delay: 0, // values from 0 to 3000, with step 50ms
-    duration: 400, // values from 0 to 3000, with step 50ms
+    duration: 800, // values from 0 to 3000, with step 50ms
     easing: "ease", // default easing for AOS animations
     once: false, // whether animation should happen only once - while scrolling down
     mirror: false, // whether elements should animate out while scrolling past them
@@ -175,9 +175,7 @@ function App() {
           <h2 data-aos="fade-up">10 Jahres Rückblick</h2>
         </div>
         <div className="middle">
-          <div>
-            <img data-aos="zoom-in" src={Profile} />
-          </div>
+          <img data-aos="zoom-in" src={Profile} />
         </div>
         <div className="right1">
           <ul>
@@ -214,17 +212,44 @@ function App() {
       <div className="doublepage1">
         <div className="left2">
           <section>
-            <h2 data-aos="fade-right">Führung & Organisation</h2>
-            <h2 data-aos="fade-right">mit Herz & Verstand</h2>
+            <h2 data-aos="fade-right">
+              Führung
+              <br /> &<br />
+              Organisation
+            </h2>
+            <h2>
+              mit Herz <br />&<br />
+              Verstand
+            </h2>
           </section>
         </div>
         <div className="right2">
-          {" "}
-          <h1 data-aos="fade-in">Leader</h1>
-          <p
-            data-aos="fade-left"
-            dangerouslySetInnerHTML={{ __html: data.leadertext }}
-          />
+          <div className="top-right">
+            <div className="cont">
+              <div className="dot"></div>
+              <h1 className="main-tp-r" data-aos="fade-in">
+                ICH
+              </h1>
+            </div>
+          </div>
+          <div className="bottom-right">
+            <div className="cont">
+              <div className="dot"></div>
+              <h1 className="main-btm-r" data-aos="fade-in">
+                <h>I</h>
+                <h>C</h>
+                <h>H</h>
+              </h1>
+              <p data-aos="fade-left">
+                Zukunftsorientiertes - ganzheitliches,
+                <br /> analytisches Denken aller
+                <br />
+                Zusammenhänge
+                <br /> &<br /> starke Visualisierungs- und
+                <br /> Verwirklichungsgabe von Konzepten & Projekten
+              </p>
+            </div>
+          </div>
         </div>
       </div>
       <div className="kontakt">
