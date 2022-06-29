@@ -2,7 +2,7 @@
   @media (min-width: 300px) {
     --char: 0.3rem;
     transform: translateX(calc(var(--char) * -11));
-    max-height: 100vh;
+    // height: 100vh;
     margin-top: calc(var(--char) * 10);
   }
   @media (min-width: 720px) {
@@ -21,10 +21,11 @@
   justify-content: center;
   font-family: sans-serif;
   padding: 0;
-  border-left: 2px solid black;
+
+  // border-left: 2px solid black;
 
   right: 0;
-  max-height: fit-content;
+  height: fit-content;
   h3 {
     @media (min-width: 300px) {
       line-height: calc(var(--char) * 3);
@@ -32,22 +33,22 @@
       font-size: calc(var(--char) * 2.5);
     }
     @media (min-width: 720px) {
-      line-height: calc(var(--char) * 1.5);
+      line-height: calc(var(--char) * 3);
       margin-left: calc(var(--char) * 2);
       font-size: calc(var(--char) * 2.5);
     }
     @media (min-width: 1920px) {
       line-height: calc(var(--char) * 3.5);
-      margin-left: calc(var(--char) * 3);
-      font-size: calc(var(--char) * 4);
+      // margin-left: calc(var(--char) * 2);
+      font-size: calc(var(--char) * 3);
     }
   }
+  max-height: fit-content;
   ul {
+    margin-top: 30vh;
     list-style: inside 2px;
     word-break: break;
     padding-left: 0%;
-
-    max-height: fit-content;
 
     li {
       @media (min-width: 300px) {
@@ -56,41 +57,41 @@
         font-size: calc(var(--char) * 2.5);
       }
       @media (min-width: 720px) {
-        line-height: calc(var(--char) * 2.5);
+        line-height: calc(var(--char) * 3);
         margin-left: calc(var(--char) * 2);
         font-size: calc(var(--char) * 3);
       }
       @media (min-width: 1920px) {
-        line-height: calc(var(--char) * 4);
+        line-height: calc(var(--char) * 3);
         margin-left: calc(var(--char) * 3);
-        font-size: calc(var(--char) * 4);
+        font-size: calc(var(--char) * 3);
       }
-      list-style: none;
 
+      // padding-top: 10vh;
       font-family: Arial, Helvetica, sans-serif;
 
-      h3::before {
-        @media (min-width: 300px) {
-          transform: translateX(calc(var(--char) * -1.2));
-          border: calc(var(--char) * 0.8);
-        }
-        @media (min-width: 720px) {
-          transform: translateX(calc(var(--char) * -0.3));
-        }
-        @media (min-width: 1920px) {
-          transform: translateX(calc(var(--char) * -0.8));
-        }
-        margin-right: 0.5%;
-        display: inline-block;
-        content: "";
-        background-color: rgb(48, 89, 79);
-        width: 1vh;
-        aspect-ratio: 1;
-        border-radius: 50%;
-        position: absolute;
-        left: 0;
-        top: 1;
-      }
+      // h3::before {
+      //   @media (min-width: 300px) {
+      //     transform: translateX(calc(var(--char) * -1.2));
+      //     border: calc(var(--char) * 0.8);
+      //   }
+      //   @media (min-width: 720px) {
+      //     transform: translateX(calc(var(--char) * -0.3));
+      //   }
+      //   @media (min-width: 1920px) {
+      //     transform: translateX(calc(var(--char) * -0.9));
+      //   }
+      //   margin-right: 0.5%;
+      //   display: inline-block;
+      //   content: "";
+      //   background-color: rgb(48, 89, 79);
+      //   width: 2vh;
+      //   aspect-ratio: 1;
+      //   border-radius: 50%;
+      //   position: absolute;
+      //   left: 0;
+      //   top: 1;
+      // }
     }
   }
 }

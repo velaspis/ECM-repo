@@ -122,7 +122,10 @@ function App() {
             </h2>
           </section>
           <div data-aos="fade-right" className="bottom">
-            <h1>Tell me your dream and let`s see if they can be real</h1>
+            <h1 data-aos="fade-right">
+              Tell me your dream
+              <br /> and let`s see if they can be real
+            </h1>
           </div>
         </div>
         <div className="right">
@@ -144,7 +147,7 @@ function App() {
               <br />
               entwicklung und Begleitung
               <br />
-              in der Verwirklichy-
+              in der Verwirklich-
               <br />
               ungsphase.
             </li>
@@ -180,7 +183,9 @@ function App() {
         <div className="right1">
           <ul>
             <li>
-              <h3 className="right-h3">Geschäftsführerin 2015 -2020</h3>
+              <h3 className="right-h3" data-aos="fade-left">
+                Geschäftsführerin 2015 -2020
+              </h3>
               <p data-aos="fade-left">
                 “Eco Food Makers UG” Braunschweig / Germany Hochwertige
                 Lebensmittel Herstellung für gesundheitsbewusste

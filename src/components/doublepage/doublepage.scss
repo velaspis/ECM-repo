@@ -50,7 +50,8 @@ ul {
   display: flex;
   background-color: rgb(244, 245, 250);
   color: rgb(40, 75, 67);
-  border-bottom: 2px grey dotted;
+  // border-bottom: 2px grey dotted;
+  // padding-bottom: 10px;
   @import "./left.scss";
   @import "./right.scss";
 }
