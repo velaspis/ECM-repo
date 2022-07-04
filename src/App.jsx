@@ -113,20 +113,17 @@ function App() {
 
       <div className="doublepage">
         <div data-aos="fade-right" className="left">
-          <section>
-            <h2 data-aos="fade-right">
-              Gemeinsam gestallten wir alles was du dir vorgenom men hast.
-            </h2>
-            <h2 data-aos="fade-right">
-              Ich werde dich kitzeln und ungeahntes aus dir rausholen.
-            </h2>
-          </section>
-          <div data-aos="fade-right" className="bottom">
-            <h1 data-aos="fade-right">
-              Tell me your dream
-              <br /> and let`s see if they can be real
-            </h1>
-          </div>
+          <h2 data-aos="fade-right">
+            Gemeinsam gestallten wir alles was du dir vorgenom men hast.
+          </h2>
+          <h2 data-aos="fade-right">
+            Ich werde dich kitzeln und ungeahntes aus dir rausholen.
+          </h2>
+
+          <h1 data-aos="fade-right">
+            Tell me your dream
+            <br /> and let`s see if they can be real
+          </h1>
         </div>
         <div className="right">
           <h1 data-aos="fade-in">Leader</h1>
@@ -161,14 +158,11 @@ function App() {
               Monaten.
             </li>
           </ul>
-          <div className="bottom-right">
-            <h1 data-aos="fade">“Imagination Creator Head"</h1>
-
-            <p
-              data-aos="fade-left"
-              dangerouslySetInnerHTML={{ __html: data.leadertext2 }}
-            />
-          </div>
+          <h1 data-aos="fad-left">“Imagination Creator Head"</h1>
+          <p
+            data-aos="fade-left"
+            dangerouslySetInnerHTML={{ __html: data.leadertext2 }}
+          />
         </div>
       </div>
 

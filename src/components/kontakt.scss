@@ -35,16 +35,15 @@
     }
     justify-content: center;
     display: flex;
-    text-align: center;
-    flex-direction: row;
+
     justify-content: space-evenly;
-    margin-left: calc(var(--char) * 3);
+
     font-size: calc(var(--char) * 7);
     font-weight: calc(var(--char) * 6);
-    padding-top: 10vh;
+
     padding: calc(var(--char) * 0.3);
     line-height: calc(var(--char) * 4);
-    margin-bottom: 5vh;
+
     height: fit-content;
     p:nth-of-type(1) {
       line-height: 1;
